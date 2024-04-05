@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="bio">Hi, This is John Doe</div>
+        <div class="gender">Male</div>
+        <h1>A Web Developer</h1>
+        <ul>
+            <li class="list-item">Apple</li>
+            <li class="list-item">Banana</li>
+            <li class="list-item">Carrot</li>
+            <li class="list-item">Pineapple</li>
+            <li class="list-item">Orange</li>
+        </ul>
+    </div>
+
+    
+    <script>
+        const pageHeading = document.getElementsByTagName('h1');
+        console.log(pageHeading);
+        const container = document.querySelectorAll('div');
+        console.log(container);
+        const listItem = document.getElementsByClassName('list-item');
+        console.log(listItem);
+    </script>
+</body>
+</html>
